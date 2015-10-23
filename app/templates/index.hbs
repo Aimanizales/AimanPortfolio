@@ -1,0 +1,9 @@
+(index.hbs) <br>
+{{#link-to 'portfolio'}}Portfolio{{/link-to}}
+{{log model.print}}
+<ul>
+{{#each model.print as |work|}}
+  <li><h5>{{work.name}}</h5><p>{{work.date}}</p></li>
+{{/each}}
+</ul>
+{{outlet}}

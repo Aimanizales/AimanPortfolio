@@ -1,0 +1,9 @@
+(portfolio.hbs)
+{{outlet}}
+{{log model}}
+
+<ul>
+{{#each model as |item|}}
+  <li><h5>{{item.data.title}}</h5><img src="{{item.data.thumbnail}}" /></li>
+{{/each}}
+</ul>
