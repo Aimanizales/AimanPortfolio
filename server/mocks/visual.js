@@ -1,10 +1,10 @@
 module.exports = function(app) {
   var express = require('express');
-  var dataTestRouter = express.Router();
+  var visualRouter = express.Router();
 
-  dataTestRouter.get('/', function(req, res) {
+  visualRouter.get('/', function(req, res) {
     res.send({
-      'data-test': [{
+      'visual': [{
         id: '1',
         name: 'Work1',
         date: '2004'
@@ -22,29 +22,29 @@ module.exports = function(app) {
     });
   });
 
-  dataTestRouter.post('/', function(req, res) {
+  visualRouter.post('/', function(req, res) {
     res.status(201).end();
   });
 
-  dataTestRouter.get('/:id', function(req, res) {
+  visualRouter.get('/:id', function(req, res) {
     res.send({
-      'data-test': {
+      'visual': {
         id: req.params.id
       }
     });
   });
 
-  dataTestRouter.put('/:id', function(req, res) {
+  visualRouter.put('/:id', function(req, res) {
     res.send({
-      'data-test': {
+      'visual': {
         id: req.params.id
       }
     });
   });
 
-  dataTestRouter.delete('/:id', function(req, res) {
+  visualRouter.delete('/:id', function(req, res) {
     res.status(204).end();
   });
 
-  app.use('/api/data-test', dataTestRouter);
+  app.use('/api/visuals', visualRouter);
 };

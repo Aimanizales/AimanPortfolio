@@ -4,6 +4,9 @@
 
 <ul>
 {{#each model as |item|}}
-  <li><h5>{{item.data.title}}</h5><img src="{{item.data.thumbnail}}" /></li>
+  <li><h5>{{item.name}}</h5>
+  {{!-- <img src="{{item.data.thumbnail}}" /></li> --}}
+  <h6>{{item.date}}</h6>
+  </li>
 {{/each}}
 </ul>

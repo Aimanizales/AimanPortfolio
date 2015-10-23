@@ -62,14 +62,12 @@ Normal          Development
 
 
 #Grunt      Gulp    Brunch      Broccoli
-
-
 #npm        bower   jspm
 
 #
 
-Datos:
-
+#Datos:
+$ ember g http-mock data-test
 
 
 
