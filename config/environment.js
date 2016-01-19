@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'ember-test',
+    modulePrefix: 'aiman_portfolio',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
