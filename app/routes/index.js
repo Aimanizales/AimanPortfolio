@@ -15,6 +15,6 @@ export default Ember.Route.extend({
         name: 'Work3',
         date: '2005'
       }]
-    }
+    };
   }
 });
