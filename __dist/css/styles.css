@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background:url(../images/bg-noise.jpg) left top;
+	color:#666;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+}
+
+a, strong{
+	color:#a00000;
+	text-decoration:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+hgroup{
+	height:110px;
+	margin-left:10px;
+}
+
+h2{
+	display:block;
+	position:absolute;
+	margin-left:150px;
+	margin-top:-42px;
+	font-size:18px;
+}
+
+h3{
+	font-size:14px;
+	font-weight:bold;
+	color:#CCC;
+	margin-top:10px;
+	margin-left:5px;
+}
+
+.contact{
+	position:absolute;
+	margin-left:160px;
+	margin-top:-100px;
+}
+
+.social{
+	display:block;
+	width:30px;
+	margin-left:10px;
+}
+
+.social a{
+	display:block;
+	width:19px;
+	height:20px;
+	margin-bottom:3px;
+	background-image:url(../images/btn_social.png);
+	background-repeat:no-repeat;
+}
+
+.social-linkedin:hover{
+	background-position:right 0;	
+}
+
+.social-pinterest{
+	background-position:0 -28px;	
+}
+
+.social-pinterest:hover{
+	background-position:right -28px;	
+}
+
+.social-flickr{
+	background-position:0 -56px;	
+}
+
+.social-flickr:hover{
+	background-position:right -56px;	
+}
+
+.social-twitter{
+	background-position:0 -82px;	
+}
+
+.social-twitter:hover{
+	background-position:right -82px;	
+}
+
+
+#info{
+	margin-top:10px;
+	margin-bottom:50px;
+}
+
+#info, #last{
+	margin-left:20px;
+	display:block;
+}
+
+#last{
+	display:block;
+	width:250px;
+	background:#333;
+	padding-bottom:10px;
+}
+
+#last span{
+	margin-top:5px;
+	font-size:11px;
+}
+
+#last p{
+	font-size:12px;
+	padding-left:5px;
+	color:#999;
+	line-height:12px;
+}
+
+#logo{
+	position:fixed;
+	top:0;
+	right:0;
+}

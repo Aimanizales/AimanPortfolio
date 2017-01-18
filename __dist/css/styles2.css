@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+body { 
+	margin:0; 
+	padding:0; 
+	background-color: #151414;
+	overflow-x:hidden;
+}
+
+h1 {
+	color:#999; 
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size:10px;
+}
+
+#header {
+	float:left;
+	z-index:0;
+}
+
+#logo {
+	float:right;
+	width:259px;
+	height:200px;
+	z-index:1;
+}
+
