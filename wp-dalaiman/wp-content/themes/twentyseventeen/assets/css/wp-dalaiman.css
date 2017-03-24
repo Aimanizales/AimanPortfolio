@@ -1,0 +1,10 @@
+#canvas{
+  position: absolute;
+  display: block;
+  top: 0;
+  width: 100%;
+}
+
+.home #canvas{
+  position: fixed;
+}
